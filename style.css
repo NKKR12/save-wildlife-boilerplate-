@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Asap", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 100px;
+  font-size: 70px;
+}
+
+p {
+  font-size: 25px;
+  padding: 0% 20%;
+}
+
+.text-white {
+  color: white;
+}
+
+nav,
+#credits {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  justify-content:space-evenly ;
+  align-items: center;
+}
+
+.button {
+  background-color: #ffcc00;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#home img {
+  max-width: 100%;
+}
+
+.middle img {
+  width: 25%;
+}
+
+.middle {
+  min-height: 500px;
+}
+
+footer {
+  background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/black-background.png);
+  background-size: 100% 100%;
+  width: 100%;
+  min-height: 100%;
+  padding: 10% 0%;
+}
